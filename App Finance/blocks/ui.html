@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/Design css/ui.css" />
+  <title>INTERFACE FINANCE</title>
+</head>
+
+<body>
+  <script src="/Functions Js/function.js"></script>
+
+  <header class="title-app">
+    <h1>FINANCE</h1>
+  </header>
+
+  <nav class="settings-bar">
+    <button id="toggleMenu" class="btn-menu">
+      <img src="/Icons/settings.svg" class="list__img" />
+    </button>
+    <ul class="list hidden">
+      <li class="list__item">
+        <div class="list__button">
+          <img src="/Icons/user.svg" class="list__img" />
+          <a href="#" class="nav__link">Perfil</a>
+        </div>
+      </li>
+
+      <li class="list__item">
+        <div class="list__button list__button--click">
+          <img src="/Icons/account.svg" class="list__img" />
+          <a href="#" class="nav__link">Cuenta</a>
+        </div>
+      </li>
+
+      <li class="list__item">
+        <div class="list__button list__button--click">
+          <img src="/Icons/support.svg" class="list__img" />
+          <a href="#">Reportes</a>
+        </div>
+      </li>
+
+      <li class="list__item">
+        <div class="list__button list__button--click">
+          <img src="/Icons/info.svg" class="list__img" />
+          <a href="#">Informacion</a>
+        </div>
+      </li>
+
+      <!--         <div class="information">
+            <p>Facilitar la gestion financiera personal mediante soluciones de software intuitivas y personalizadas,promoviendo la prosperidad economica y el bienestar de nuestros usuarios.</p>
+        </div> -->
+    </ul>
+  </nav>
+
+  <nav class="profile-options-wallet">
+    <ul class="list-nav">
+      <li id="profile">Perfil</li>
+      <li id="wallet">Wallet</li>
+      <li id="overview">Overview</li>
+      <li id="info">Info</li>
+    </ul>
+  </nav>
+
+  <div class="calculator">
+    <input type="number" placeholder="Tus ingresos" required />
+    <button type="submit">Calcular</button>
+  </div>
+
+  <div class="saved-number">
+    <h2 id="tusahorros">TUS AHORROS</h2>
+    <h2 id="numerito">10,000.00</h2>
+  </div>
+  <div class="waste">
+    <h2 id="tusgastos">Tus gastos:</h2>
+  </div>
+
+  <nav class="gastos">
+    <li id="impuestos">Impuestos:</li>
+    <li id="wifi">Internet:</li>
+    <li id="car">Vehículo:</li>
+    <li id="phone">Telébfono:</li>
+    <br />
+  </nav>
+
+  <script src="../Functions Js/ui.js"></script>
+</body>
+
+</html>
